@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lainnya...</title>
+        <style>
+            body{
+    margin: 0;
+    padding: 0;
+    background-color: #cfff8d;
+}
+.wadah_logo{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    height: 80px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ddffad;
+    position: relative;
+    table-layout: fixed;
+    border-collapse: collapse;
+    top: -40px;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #436058 ;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    background-color: #749f82;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(191, 10, 247);
+    background-color: #a8e890;
+}
+a.lain{
+    text-decoration: underline;
+}
+a.lain:hover{
+    text-decoration: underline;
+    color: rgb(191, 10, 247);
+}
+.pilihan{
+    background-color: #749f82;
+    width: 1200px;
+    margin: auto;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.pilih{
+    text-align: center;
+    border-radius: 20px;
+}
+.pilah{
+    margin: 50px;
+    background-color:#436058;
+    padding: 20px;
+    position: relative;
+    top: -100px;
+    border-radius: 10px;
+    transition: 1s;
+    color: #a8e890;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pilah:hover{
+    background-color: aliceblue;
+    transform: matrix();
+    color: #a8e890;
+    box-shadow: #436058 5px 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box_putar{
+    background-color: #a8e890;
+    width: 5%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    transition: 1s;
+}
+.pilihan:hover .box_putar{
+    background-color: #a8e890;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 20px 20px 10px;
+    transform: matrix();
+
+}
+.box_putar::after{
+    width: 100%;
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="wadah_logo">
+                <div class="logo"><h1>SCL.co</h1></div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="ScLuth.html" class="ber">Beranda</a></li>
+                            <li><a href="" class="cot">Contact Us</a></li>
+                            <li><a href="lainnya.html" class="lain">Lainnya</a></li>
+                            <li><a href="">About Us</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+        <div class="pilihan">
+            <div class="box_putar"> </div>    
+                <div class="pilih">
+                <a href="story" class="pilah">STORY</a><a href="fiksi" class="pilah">CERITA FIKSI</a><a href="puisi" class="pilah">PUISI</a>
+            </div>    
+        </div>
+    </body>
+</html>
